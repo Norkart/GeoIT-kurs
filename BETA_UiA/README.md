@@ -80,6 +80,8 @@ WMS er en API-standard (OGC-standard) for å hente inn "custom" kartbilder fra e
 
 Løs luke 5: https://github.com/Norkart/AdventOfGIS/blob/2023/05/README.md 
 
+Sjekk ut flere WMS-tjenester her på [GeoNorge](https://kartkatalog.geonorge.no/?DistributionProtocols=WMS-tjeneste&dataaccess=%C3%85pne%20data&spatialscope=Nasjonal)
+
 
 **GPS-posisjon i kartet**
 
