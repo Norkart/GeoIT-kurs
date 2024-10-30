@@ -71,6 +71,7 @@
         })
         .catch(error => console.error('Kunne ikke laste GeoJSON-data:', error));
 
+/*
         // Variabel for å lagre brukerens posisjon-marker
         let userMarker = null;
 
@@ -91,7 +92,7 @@
                 map.setView([latitude, longitude], 12);
             }
         }
-/*
+
         // Sette opp geolokasjon som oppdateres hvert 5. sekund
         if ("geolocation" in navigator) {
             navigator.geolocation.watchPosition(updateUserPosition, 
