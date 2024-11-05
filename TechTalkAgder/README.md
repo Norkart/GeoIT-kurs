@@ -26,28 +26,28 @@ GeoJSON er en utvidelse av JSON som håndterer geografiske data. GIS-verden har 
 
 På https://geojson.io/ kan du "tegne" egne GeoJSON og laste ned i ulike formater for å teste. 
 
-_walkthrough geojson.io_
-
 **GIS-programvare: QGIS**
 
 QGIS er en klassisk GIS-desktop-programvare. QGIS støtter "alt", og er praktisk for å "debugge" geografiske data, tjenester og teste analyser m.m.
 
-_walkthrough QGIS, geojson, tiles, projeksjoner, save_as_
+Vi tar en show&tell intro til QGIS i plenum
+
 
 ## Workshop - webkart
 
 I denne workshopen skal du lære det mest grunnleggende for å programmere en webkart-app. Du må ha installert en kode-editor, fks VSCode, nettleser, og internett. 
 
-Vi skal bruke noen av oppgavene fra fjorårets Advent of GIS som Norkart har. https://github.com/Norkart/AdventOfGIS/blob/2023/
+Vi skal bruke noen av oppgavene fra fjorårets Advent of GIS som Norkart har. https://github.com/Norkart/AdventOfGIS/blob/2023/. Obs: Noen linker til datasett og API kan være døde i 2023-versjonen. Kanskje kommer det en oppdatert versjon i 2024?
 
 **Oppsett og bakgrunnskart**
 
-Prøv å løs "Luke 3" i adventskalenderen. Prøv ut ulike bakgrunnskart/flyfoto med apikeys du får på workshopen. Bruk enten VSCode lokalt - eller web-editorer som CodePen.
+Vi skal prøve å løse "Luke 3" i adventskalenderen. Du kan utforske ulike bakgrunnskart/flyfoto med apikeys du får på workshopen og gratistjenester. Bruk enten VSCode lokalt - eller web-editorer som CodePen.
 
 For workshopen anbefaler vi å bruke helt vanilla html/javascript. Leaflet støttes og har wrappere i flere rammeverk når man har behov for det.
 
 Løs [luke 3](https://github.com/Norkart/AdventOfGIS/blob/2023/03/README.md) men bruk URL'er under. Sjekk ut [leaflet.html](./leaflet.html) for jukselapp
 
+Under er en liste med tilecache-strenger. {z}/{x}/{y} er variabler som Leaflet selv finner ut av. Det beskriver tile-matrix-systemet for (som regel) koordinatsystemet EPSG:3857. {apiKey} må byttes til nøkkelen du får på workshopen.
 ```
 https://tile.openstreetmap.org/{z}/{x}/{y}.png
 
@@ -65,6 +65,7 @@ https://waapi.webatlas.no/maptiles/tiles/webatlas-1881-vektor/wa_grid/{z}/{x}/{y
 
 
 **GeoJSON-data i kartet**
+Nå skal du legge til egne vektor-data i kartet. Vektordata blir rendret direkte i klienten - og vi kan endre styling, gjøre (enkle) analyser og legge til user events til features i datasettet. 
 
 Oppgave:
 1. Legg til en GeoJSON-fil i kartet som hentes med fetch e.l.
@@ -81,14 +82,13 @@ https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_countri
 
 ```
 
-
 Relevante luker i AoG
 
 * https://github.com/Norkart/AdventOfGIS/blob/2023/02/README.md
 * https://github.com/Norkart/AdventOfGIS/blob/2023/04/README.md
 * https://github.com/Norkart/AdventOfGIS/blob/2023/08/README.md
 
-Tips:
+Tips til tutorials og datasett:
 * https://leafletjs.com/examples/geojson/
 * Data: https://www.naturalearthdata.com/
 * Data: https://geojson.xyz/
