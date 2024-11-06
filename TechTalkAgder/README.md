@@ -1,12 +1,12 @@
 # Tech Talk Agder - Geografisk IT
 
 ## Tema
-* Demo: KeplerGL
 * Demo: QGIS og ogr2ogr - swiss army knife
-* AgderKI-demo: geopandas
+~~* AgderKI-demo: geopandas~~
+* Demo: KeplerGL
 * Demo: Maplibre
 * Workshop: Leaflet
-* Geografiske økosystemet i Norge - for Nerder
+~~* Geografiske økosystemet i Norge - for Nerder~~
 
 ## GIS-verktøy og standarder
 
