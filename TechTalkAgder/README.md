@@ -2,13 +2,18 @@
 
 ## Tema
 * Demo: QGIS og ogr2ogr - swiss army knife
-~~* AgderKI-demo: geopandas~~
+* ~~AgderKI-demo: geopandas~~
 * Demo: KeplerGL
 * Demo: Maplibre
 * Workshop: Leaflet
-~~* Geografiske økosystemet i Norge - for Nerder~~
+* ~~Geografiske økosystemet i Norge - for Nerder~~
 
 ## GIS-verktøy og standarder
+
+**Åpne datasett**
+* https://naturalearthdata.com/
+* https://geojson.xyz/
+* https://www.geonorge.no/
 
 **Projeksjoner**
 
